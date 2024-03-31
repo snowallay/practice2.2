@@ -1,0 +1,8 @@
+.bg_statement {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: repeating-linear-gradient(to right, #fff9fb, #fff9fb 6px, #fff5fb 6px, #fff5fb 20px);
+}
