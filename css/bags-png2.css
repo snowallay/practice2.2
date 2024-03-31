@@ -1,9 +1,28 @@
 <style type="text/css">
-body {
-   background-color: #969696;            /* 背景色 */
-   background-image: url("png/bag.gif"); /* 画像 */
-   background-size: cover;               /* 全画面 */
-   background-attachment: fixed;         /* 固定 */
-   background-position: center center;   /* 縦横中央 */
-}
+   /* ======================== */
+   /* ▼共通装飾(兼モバイル用) */
+   /* ======================== */
+   body {
+      background-color: #969696;
+      background-image: url("png/bag.gif"); /* 640x426 */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+   }
+   /* ================== */
+   /* ▼中くらいの画面用 */
+   /* ================== */
+   @media (min-width: 640px) {
+      body {
+         background-image: url("png/bag.gif"); /* 1280x854 */
+      }
+   }
+   /* ============ */
+   /* ▼広い画面用 */
+   /* ============ */
+   @media (min-width: 1280px) {
+      body {
+         background-image: url("png/bag.gif"); /* 1860x1240 */
+      }
+   }
 </style>
