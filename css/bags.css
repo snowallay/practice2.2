@@ -4,7 +4,7 @@ header,footer{
     width:100%;
     height:100px;
     line-height: 100px;/*上下中央に文字を配置*/
-    background: #333;
+    background: #33F3E6;
     color:#fff;
     text-align: center;
 }
