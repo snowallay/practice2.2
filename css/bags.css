@@ -1,0 +1,30 @@
+header {
+background-image: url("bag.gif");
+color: #fff;
+height: 730px;
+padding: 40px;
+}
+footer {
+height: 300px;
+padding: 20px;
+background-color: rgb(75, 75, 75);
+color: aliceblue;
+}
+/* 装飾のためのCSS */
+p{
+font-weight: bold;
+color: aliceblue;
+font-size: 2rem;
+text-align: center;
+}
+.content-wrap{
+display: flex;
+}
+main{
+flex:1 1 65%;
+}
+.content {
+height: 250px;
+background-color: #fff9fb;
+padding: 0px;
+}

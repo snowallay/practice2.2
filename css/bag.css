@@ -1,0 +1,19 @@
+body {
+  background-image: url("bag.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ .container {
+    width: 100%;
+    height: 90000px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .body {
+    width: 80%;
+    background-color: #fff9fb;
+  }
+  .side {
+    width: 20%;
+    background-color: #e7ffff;
+  }
