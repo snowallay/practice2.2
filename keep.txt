@@ -1,1 +1,2 @@
 <body style="background-color:##FFF9f7;>
+<div class="bg_statement"></div>（bodyの1つ下
