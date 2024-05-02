@@ -174,6 +174,16 @@ img{
 <dd>
 <center><textarea id="setumei" placeholder="リソースパックの説明"></textarea></center>
 </dd>
+<script>
+function butotnClick(){
+  msg.innerText = reviewTextarea.value;
+}
+let reviewTextarea = document.getElementById('reviewTextarea');
+reviewTextarea.value = '感想をお願いします';
+let msg = document.getElementById('msg');
+let checkButton = document.getElementById('name');
+checkButton.addEventListener('click', butotnClick);
+</script>
             </article>
         </main>
         <aside class="sidebar">
