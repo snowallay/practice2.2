@@ -31,6 +31,41 @@
 }
 </style>
 <style>
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt input[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+.cp_iptxt input[type=text]:focus {
+	border-color: #da3c41;
+}
+.cp_iptxt input[type=text] {
+	padding-left: 40px;
+}
+.cp_iptxt i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+.cp_iptxt input[type=text]:focus + i {
+	color: #da3c41;
+}
+</style>
+<style>
 p{font-family: "Hiragino Maru Gothic ProN";
 }
 h1{font-family: "Hiragino Maru Gothic ProN";
@@ -179,7 +214,7 @@ img{
 <dl>
 <dt></dt>
 <dd>
-<center><input type="text" id="name" placeholder="リソースパック、スキンパックの名前"></center>
+<center><div class="cp_iptxt"><input type="text" id="name" placeholder="リソースパック、スキンパックの名前"></div></center>
 </dd>
 </dl>
 <dl>
@@ -187,7 +222,7 @@ img{
 <dd>
 <center><textarea id="setumei" placeholder="リソースパックの説明"></textarea></center>
 </dd>
-<center><a href="#" name="name" class="btn">ボタン</a></center>
+<center><h3 href="#" name="name" class="btn">ボタン</h3></center>
 </article>
         </main>
         <aside class="sidebar">
