@@ -31,6 +31,41 @@
 }
 </style>
 <style>
+.cp_iptext {
+	position: relative;
+	width: 80%;
+	margin: 80px 3%;
+}
+.cp_iptext input[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+.cp_iptext input[type=text]:focus {
+	border-color: #da3c41;
+}
+.cp_iptext input[type=text] {
+	padding-left: 80px;
+}
+.cp_iptext i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+.cp_iptext input[type=text]:focus + i {
+	color: #da3c41;
+}
+</style>
+<style>
 .cp_iptxt {
 	position: relative;
 	width: 80%;
