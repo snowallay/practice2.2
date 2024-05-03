@@ -174,21 +174,8 @@ img{
 <dd>
 <center><textarea id="setumei" placeholder="リソースパックの説明"></textarea></center>
 </dd>
-<div>
-<input type="button" value="Check" id="name">
-</div>
-<p id="msg"></p>
-<script>
-function butotnClick(){
-  msg.innerText = reviewTextarea.value;
-}
-let reviewTextarea = document.getElementById('reviewTextarea');
-reviewTextarea.value = '感想をお願いします';
-let msg = document.getElementById('msg');
-let name = document.getElementById('name');
-name.addEventListener('名前を生成!おむつ穿きたい!', butotnClick);
-</script>
-            </article>
+<button name="name">作成!</button>
+</article>
         </main>
         <aside class="sidebar">
             <div class="sidebar-sticky-info">
